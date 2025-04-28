@@ -8,6 +8,7 @@ void main(){
   studentinfo.Grade = "A-";
 
   studentinfo.displayInfo();
+  studentinfo.updateGrade("A");
 
 }
 
@@ -27,6 +28,13 @@ class StudentInfo{
    print("Section : $Section"); 
    print("Grade : $Grade");
 
+
+  }
+
+  updateGrade(String newGrade){
+    
+    Grade = newGrade;
+    print("Updated Grade : $newGrade");
 
   }
 }
