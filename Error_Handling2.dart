@@ -1,7 +1,7 @@
 main(){
 
 
-//Object Creation
+//Object Creation Here
 
 AreaOfTriangle area =  AreaOfTriangle();
 
@@ -19,7 +19,7 @@ area.displayArea();
 
 }
 
-// Class Creation
+// Class Creation Here
 
 class AreaOfTriangle{
 
