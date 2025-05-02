@@ -21,8 +21,8 @@ Student(String Name, int Id){
 
 //and remember that the name and id inside the constructor and the name and id outside the constructor are now Same for this keyword
   
-this.Name = Name;
-this.Id = Id;
+this.Name = Name; // this.Name is the variable of class and only Name of the RHS is from the construtor
+this.Id = Id; // this.Id is the variable of class and only Id of the RHS is from the construtor
 
 }
 
